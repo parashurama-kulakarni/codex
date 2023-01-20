@@ -81,7 +81,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server
 
-  const res = await fetch('http://localhost:5000', {
+  const res = await fetch('https://codex-plik.onrender.com/', {
     method: "Post",
     headers: {
       'Content-Type': 'application/json'
